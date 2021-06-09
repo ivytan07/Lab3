@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(https://secure.img1-fg.wfcdn.com/im/68691974/resize-h800-w800%5Ecompr-r85/6935/69353854/Drinnon+32.7%2527+L+x+20.5%2522+W+Classic+Floral+Wallpaper+Roll.jpg); background-size:100% 100%;
+     
+}
+
+/* Column container */
+
+.main {
+-ms-flex: 100%;
+/* IE10 */
+flex: 100%;
+background-color: rgb(250, 232, 247);
+padding: 30px;
+text-align: center;
+}
+/* Style the label */
+label {
+padding: 12px 12px 12px 0;
+display: inline-block;
+text-align: left;
+}
+
+/* Style the word(Sweet World Enterprise) and image */
+.header h1{
+  padding: 50px;
+  text-align: center;
+  color: black;
+  font-family: "Bookman", "URW Bookman L", serif;
+  font-weight: bold;
+}
+.header img{
+padding: 10px;
+}
+
+/* Style the image in the landing page*/
+.content img{
+width: 550px;
+height: 200px;
+padding: 10px;
+}
+
+
+/* style the words (Welcome to Sweet World Enterprise) in the landing page*/
+.content h3{
+padding: 50px;
+  text-align: center;
+  color: rgb(8, 50, 185);
+  font-family: "Bookman", "URW Bookman L", serif;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+
+
+
+/* Style the text field */
+input[type=text] {
+width: 30%;
+padding: 10px;
+margin: 5px 0 20px 0;
+display: inline-block;
+border: none;
+background: white;
+}
+input[type=password]{
+width: 30%;
+padding: 10px;
+margin: 5px 0 20px 0;
+display: inline-block;
+border: none;
+background: white;
+}
+
+input[type=date]  {
+width: 30%;
+padding: 10px;
+margin: 5px 0 20px 0;
+display: inline-block;
+border: none;
+background: white;
+ 
+}
+
+
+
+/* Style the label */
+label {
+  font-weight: bold;
+  padding:  12px;
+  display: inline-block;
+  text-align: center;
+  }
+
+
+/* Style the word(Login) in login page */
+.main h2{
+text-align: center;
+font-weight: bold;
+font-family: "Times New Roman", Times, serif;
+font-size: 35px;
+}
+
+p{
+font-size: 20px;
+text-align: center;
+}
+
+/* Style the sweet world logo*/
+img{
+padding: 10px;
+height: 150px;
+width: 150px;
+}
+
+/* Register Button*/
+.registerbtn{
+background-color: #afbbff;
+border: none;
+color: rgb(10, 10, 10);
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 12px;
+}
+
+/* Login Button*/
+.loginbtn{
+  background-color: #afbbff;
+  border: none;
+  color: rgb(10, 10, 10);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+/* Style Add Button*/
+.addbtn{
+  background-color: #afbbff;
+  border: none;
+  color: rgb(10, 10, 10);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  }
+/* The word of "Register Now" in Login Page*/
+.register{
+color:red;
+text-decoration:none;
+}
+.register:link{
+color:red;
+}
+.register:visited{
+color:red;
+}
+
+.imgselection {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  display: inline-block;
+  border: 1px solid black;
+}
